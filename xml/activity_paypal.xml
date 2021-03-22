@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bruno"
+    tools:context=".Paypal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtxtp"
+            android:textColorHint="#ff00"
+            android:hint="Enter Amount"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnp"
+            android:layout_marginTop="50dp"
+            android:text="Pay Now"
+            />
+        <ImageView
+            android:layout_width="122dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/bruno2" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
